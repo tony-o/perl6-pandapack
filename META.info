@@ -3,8 +3,8 @@
   "version"     : "0.1.0",
   "description" : "Utility for automating bundling up your package",
   "author"      : "Tony ODell",
-  "depends"     : {
-    "Pluggable" : "*" 
-  },
+  "depends"     : [
+    "Pluggable" 
+  ],
   "source-url"  : "git://github.com/tony-o/perl6-pandapack.git"
 } 
