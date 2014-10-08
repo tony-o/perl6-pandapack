@@ -1,11 +1,11 @@
 #!/usr/bin/env perl6
 
-use Packopanda;
+use Pandapack;
 use Test;
 use lib 't/lib';
 
-plan 3;
+plan 1;
 
-Packopanda.new.build;
+Pandapack.new.build;
 
 ok 1, 'passed build phase';
