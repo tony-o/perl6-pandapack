@@ -1,8 +1,8 @@
 #!/usr/bin/env perl6
 
+use lib 't/lib';
 use Pandapack;
 use Test;
-use lib 't/lib';
 
 plan 1;
 
